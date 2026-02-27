@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import { Pose } from "@mediapipe/pose";
 import { Camera } from "@mediapipe/camera_utils";
-import { THEME, GLOBAL_STYLE, LABELS } from "./theme";
+import { THEME, GLOBAL_STYLE, LABELS } from "./theme.js";
 
 const SCORE_DECAY_NORMAL   = 0.04;
 const SCORE_DECAY_EXTENDED = 0.10;
