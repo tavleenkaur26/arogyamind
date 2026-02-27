@@ -1,15 +1,28 @@
-import React from "react";
+import { Routes, Route } from "react-router-dom";
+import PostureDetector from "./components/PostureDetector";
+import YogaDetector from "./components/YogaDetector";
 import DharmicDecisionFramework from "./components/DharmicDecisionFramework";
+import Navbar from "./components/Navbar";
 
-function App() {
+function Home() {
   return (
-    <div className="container">
-      <h1 style={{ textAlign: "center", color: "#1e3a8a", marginTop: "20px" }}>
-        ArogyaMind — Dharmic Decision Framework
-      </h1>
-      <DharmicDecisionFramework />
+    <div style={{ padding: "40px" }}>
+      <h1>ArogyaMind</h1>
+      <p>Welcome to the homepage</p>
     </div>
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/posture" element={<PostureDetector />} />
+        <Route path="/yoga" element={<YogaDetector />} />
+        <Route path="/ddf" element={<DharmicDecisionFramework />} />
+      </Routes>
+    </>
+  );
+}
