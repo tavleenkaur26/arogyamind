@@ -1,22 +1,15 @@
-import { useState } from "react"
-import RhythmSetup from "./pages/RhythmSetup"
-import Timeline from "./components/timeline"
-import FocusTimer from "./components/FocusTimer"
-import PostureDetector from "./components/PostureDetector"
+import React from "react";
+import DharmicDecisionFramework from "./components/DharmicDecisionFramework";
 
 function App() {
-  const [userData, setUserData] = useState(null)
-  const [focusMinutes, setFocusMinutes] = useState(0)
-
-  const handleFocusComplete = (mins) => {
-    setFocusMinutes((prev) => prev + mins)
-  }
-
   return (
-  <div className="container">
-    <PostureDetector />
-  </div>
-)
+    <div className="container">
+      <h1 style={{ textAlign: "center", color: "#1e3a8a", marginTop: "20px" }}>
+        ArogyaMind — Dharmic Decision Framework
+      </h1>
+      <DharmicDecisionFramework />
+    </div>
+  );
 }
 
-export default App
+export default App;

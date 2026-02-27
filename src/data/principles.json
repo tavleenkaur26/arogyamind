@@ -1,0 +1,20 @@
+{
+  "Dharma": {
+    "description": "Action aligned with your values and purpose.",
+    "reflectionPrompt": "Am I acting in alignment with my core values?",
+    "microPractice": "Write down the top 3 outcomes that reflect your purpose.",
+    "breathingPrompt": "Take 3 deep breaths focusing on intention."
+  },
+  "Vairagya": {
+    "description": "Detachment from results; focus on process, not outcome.",
+    "reflectionPrompt": "Am I clinging to results or expectations?",
+    "microPractice": "List what you can release control over today.",
+    "breathingPrompt": "Inhale for 4, hold for 2, exhale for 6."
+  },
+  "Abhyasa": {
+    "description": "Discipline and consistent practice to build skill.",
+    "reflectionPrompt": "Am I consistently practicing my chosen habit?",
+    "microPractice": "Commit to 10 minutes of focused practice now.",
+    "breathingPrompt": "Box breathing: inhale 4, hold 4, exhale 4, hold 4."
+  }
+}
