@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { THEME, GLOBAL_STYLE } from "../theme";
+import { THEME, GLOBAL_STYLE } from "./theme";
 
 const FEATURES = [
   {
