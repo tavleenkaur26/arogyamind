@@ -7,6 +7,7 @@ export default function Navbar() {
       <Link to="/posture" style={{ margin: "10px", color: "white" }}>Posture</Link>
       <Link to="/yoga" style={{ margin: "10px", color: "white" }}>Yoga</Link>
       <Link to="/ddf" style={{ margin: "10px", color: "white" }}>DDF</Link>
+      <Link to="/planner">Planner</Link>
     </nav>
   );
 }
