@@ -4,18 +4,8 @@ import YogaDetector from "./components/YogaDetector";
 import DharmicDecisionFramework from "./components/DharmicDecisionFramework";
 import Navbar from "./components/Navbar";
 import Planner from "./components/Planner";
+import Home from "./components/Home";
 
-// Keep the Home component
-function Home() {
-  return (
-    <div style={{ padding: "40px" }}>
-      <h1>ArogyaMind</h1>
-      <p>Welcome to the homepage</p>
-    </div>
-  );
-}
-
-// Main App component with Navbar and routes
 export default function App() {
   return (
     <>
